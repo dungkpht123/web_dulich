@@ -3965,7 +3965,7 @@ span.red-color {
 .w3l-banner-slider-main .top-bannerhny-right.one,
 .w3l-banner-slider-main .top-bannerhny-right.two,
 .w3l-banner-slider-main .top-bannerhny-right.three {
-  background: url(../images/slider1.jpg) no-repeat center;
+  background: url(../images/banner_1.jpg) no-repeat center;
   background-size: cover;
   -webkit-background-size: cover;
   -o-background-size: cover;
@@ -3975,7 +3975,7 @@ span.red-color {
 }
 
 .w3l-banner-slider-main .top-bannerhny-right.one {
-  background: url(../images/slider2.jpg) no-repeat center;
+  background: url(../images/banner_2.jpg) no-repeat center;
   background-size: cover;
   -webkit-background-size: cover;
   -o-background-size: cover;
@@ -3984,7 +3984,7 @@ span.red-color {
 }
 
 .w3l-banner-slider-main .top-bannerhny-right.two {
-  background: url(../images/slider3.jpg) no-repeat center;
+  background: url(../images/banner_3.jpg) no-repeat center;
   background-size: cover;
   -webkit-background-size: cover;
   -o-background-size: cover;
@@ -3993,7 +3993,7 @@ span.red-color {
 }
 
 .w3l-banner-slider-main .top-bannerhny-right.three {
-  background: url(../images/slider4.jpg) no-repeat center;
+  background: url(../images/ao-sen-que-bac.jpg) no-repeat center;
   background-size: cover;
   -webkit-background-size: cover;
   -o-background-size: cover;
@@ -4118,15 +4118,24 @@ span.red-color {
 }
 
 .w3l-bottom-grids-6 span.fa.icon-fea1 {
-  color: #DB162F;
+  color: #090909;
   font-size: 30px;
   margin-bottom: 20px;
   width: 74px;
   height: 74px;
   border-radius: 50%;
-  background: #f9e3e6;
+  border :solid 1px #D50017;
+  background: #fbfbfb;
   text-align: center;
   line-height: 74px;
+}
+.fill{
+  fill : black;
+  width: 46px;
+    height: 36px;
+    top: 19px;
+    left: 29px;
+    position: absolute;
 }
 
 .w3l-bottom-grids-6 .about-gd-inn:hover span.fa.icon-fea1 {
@@ -4179,6 +4188,7 @@ span.red-color {
   margin: 0 auto;
   text-align: center;
   width: 100%;
+  height: 300px;
   border-radius: 6px;
   -webkit-border-radius: 6px;
   -o-border-radius: 6px;
@@ -6402,6 +6412,7 @@ ul.gallery_agile li {
 
 /*-- portfolio --*/
 .w3_agile_portfolio_grid {
+  height: 200px;
   overflow: hidden;
   position: relative;
 }
@@ -6646,6 +6657,7 @@ ul.gallery_agile li {
 }
 
 .w3l-grid-slider-vv .owl-carousel .owl-item img {
+  height: 250px;
   display: block;
 }
 
